@@ -1,0 +1,24 @@
+Musical notes can be modeled as sinusoids where the iᵗʰ note is given by:
+
+      mᵢ(t) = sin(2πfᵢt)
+
+An *octave* has twelve notes ranging from f₁ to 2f₁ which are spaced equally on a *logarithmic* scale, i.e.,
+log(f₁), log(f₂), …, log(f₁₂) form an arithmetic progression.
+
+For the octave range 440 Hz to 880 Hz generate the 12 notes, i.e., in addition to the 440 Hz and 880 Hz tones you should generate ten more notes.
+
+Each note should be of two seconds duration.
+
+---
+
+API Specification:
+
+1. Function name: musical_notes
+
+2. The function will not take any inputs or arguments.
+
+3. Output of the function should be a column vector y.
+
+4. The function should be callable as:
+
+      [y] = musical_notes()
